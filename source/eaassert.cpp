@@ -5,6 +5,7 @@
 #include "EAAssert/eaassert.h"
 
 #ifndef EA_ASSERT_HAVE_OWN_HEADER
+EA_DISABLE_VC_WARNING(4668)
 
 #include <stdio.h>
 
@@ -137,4 +138,5 @@ namespace EA {
 
 	}}
 
+EA_RESTORE_VC_WARNING()
 #endif
